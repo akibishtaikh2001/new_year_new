@@ -71,7 +71,7 @@ header {
 }
 .my_plan_container{
     display: flex;
-    gap: 150px;
+    gap: 100px;
     align-items: center;
     margin-left: 450px;
 }
@@ -82,4 +82,30 @@ header {
 .title_description{
    font-size: 25px;
    color: #737272; 
+}
+
+
+/* main footer background and title */
+.background{
+    background-image: url("../images/watch.png"), url("../images/gradient1.png");
+    height: 25vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 400px;    
+}
+.background_content{
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.background_title{
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.background_butn{
+    font-size: 20px;
+    color: #F15B22;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border: none;
+   border-radius: 5px;
 }
