@@ -1,111 +1,191 @@
 header {
     background-image: url("../images/banner/banner1.png");
-    height:100vh;
-    
+    height: 100vh;
+
     background-repeat: no-repeat;
     margin-left: 100px;
-       
+
 }
-.header_content{
+
+.header_content {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     margin-right: 400px;
     padding-top: 300px;
     gap: 20px;
-    
+
 }
-.header_title{
+
+.header_title {
     font-size: 45px;
     font-weight: bold;
 }
-.header_description{
+
+.header_description {
     font-weight: 400;
     color: #444343;
 }
-.primary_btn{
+
+.primary_btn {
     color: #FFFFFF;
     background-color: #F15B22;
     padding: 20px;
     border: none;
     font-weight: 800;
-    font-size:16px ;
+    font-size: 16px;
 }
 
 /* main section  pages*/
 
-.my_failures{
+.my_failures {
     display: flex;
     padding-left: 200px;
 }
 
-.failure_container{
+.failure_container {
     padding-top: 200px;
     padding-left: 100px;
 }
 
-.title_heading{
+.title_heading {
     font-size: 45px;
     font-weight: 700;
 }
-.containt_description{
+
+.containt_description {
     font-weight: 400;
     color: #444343;
 }
-.bullet_point ul{
+
+.bullet_point ul {
     list-style: none;
 }
-.bullet_point ul li{
+
+.bullet_point ul li {
     font-weight: 400;
     color: #444343;
 }
-.bullet_point ul li::before{
+
+.bullet_point ul li::before {
     content: "✓";
 }
 
 /* main about my palns */
-.my_plans_title{
+.my_plans_title {
     font-size: 40px;
     color: #151414;
     text-align: center;
 }
-.my_plan_container{
+
+.my_plan_container {
     display: flex;
     gap: 100px;
     align-items: center;
     margin-left: 450px;
 }
-.title{
+
+.title {
     font-size: 30px;
     color: #151414;
 }
-.title_description{
-   font-size: 25px;
-   color: #737272; 
+
+.title_description {
+    font-size: 25px;
+    color: #737272;
 }
 
 
 /* main footer background and title */
-.background{
+.background {
     background-image: url("../images/watch.png"), url("../images/gradient1.png");
     height: 25vh;
     width: 100%;
     background-repeat: no-repeat;
-    margin-left: 400px;    
+    margin-left: 400px;
+    margin-bottom: 50px;
 }
-.background_content{
-  padding-left: 30px;
-  padding-top: 20px;
+
+.background_content {
+    padding-left: 30px;
+    padding-top: 20px;
 }
-.background_title{
+
+.background_title {
     font-size: 40px;
     color: #FFFFFF;
 }
-.background_butn{
+
+.background_butn {
     font-size: 20px;
     color: #F15B22;
     background-color: #FFFFFF;
     padding: 15px;
     border: none;
-   border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* added footer */
+footer {
+    background-color: #151414;
+    height: 50vh;
+    /* width: 100vh; */
+}
+
+.footer_conteinar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_title {
+    font-size: 45px;
+    color: #F8F8F8;
+    font-weight: 900;
+}
+
+.fotter_description {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.contact {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.footer_from_title {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.footer_form form input {
+    background-color: #151414;
+    color: #FFFFFF;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+::placeholder {
+    font-size: 18px;
+    color: #F3F3F3;
+
+}
+
+.fotter_button{
+    font-size: 20px;
+    color: #F15B22;
+    padding: 15px;
+    border-radius: 5px;
+}
+.footer_form{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ 
+}
+.footer_content{
+    padding-top: 50px;
 }
