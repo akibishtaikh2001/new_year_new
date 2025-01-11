@@ -3,6 +3,7 @@ header {
     height:100vh;
     
     background-repeat: no-repeat;
+    margin-left: 100px;
        
 }
 .header_content{
@@ -60,4 +61,25 @@ header {
 }
 .bullet_point ul li::before{
     content: "✓";
+}
+
+/* main about my palns */
+.my_plans_title{
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+}
+.my_plan_container{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    margin-left: 450px;
+}
+.title{
+    font-size: 30px;
+    color: #151414;
+}
+.title_description{
+   font-size: 25px;
+   color: #737272; 
 }
