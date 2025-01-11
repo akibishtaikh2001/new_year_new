@@ -30,3 +30,34 @@ header {
     font-weight: 800;
     font-size:16px ;
 }
+
+/* main section  pages*/
+
+.my_failures{
+    display: flex;
+    padding-left: 200px;
+}
+
+.failure_container{
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.title_heading{
+    font-size: 45px;
+    font-weight: 700;
+}
+.containt_description{
+    font-weight: 400;
+    color: #444343;
+}
+.bullet_point ul{
+    list-style: none;
+}
+.bullet_point ul li{
+    font-weight: 400;
+    color: #444343;
+}
+.bullet_point ul li::before{
+    content: "✓";
+}
